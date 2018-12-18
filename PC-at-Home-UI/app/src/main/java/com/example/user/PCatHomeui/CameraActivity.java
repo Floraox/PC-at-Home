@@ -156,7 +156,7 @@ public class CameraActivity extends AppCompatActivity {
         }
 
     }
-
+//读取图像
     private class RenderThread extends Thread {
         private final BlockingQueue<byte[]> frameQueue;
 

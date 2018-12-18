@@ -12,48 +12,50 @@
 
 
     <Button
-            android:id="@+id/btnShutdown"
-            android:textColor="@color/ghostwhite"
-            android:background="@color/mintgreen"
-            android:text="关机"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/btnCancel"
-            android:layout_alignTop="@+id/btnReboot"/>
+        android:id="@+id/btnShutdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnReboot"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="-111dp"
+        android:background="@color/mintgreen"
+        android:text="关机"
+        android:textColor="@color/ghostwhite" />
 
     <Button
-            android:id="@+id/btnReboot"
-            android:textColor="@color/ghostwhite"
-            android:background="@color/tomato"
-            android:text="重启"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="197dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="74dp"/>
+        android:id="@+id/btnReboot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCancel"
+        android:layout_alignStart="@+id/btnCancel"
+
+        android:layout_alignT="@+id/btnCancel"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="76dp"
+        android:background="@color/tomato"
+        android:text="重启"
+        android:textColor="@color/ghostwhite" />
 
     <Button
-            android:id="@+id/btnCancel"
-            android:textColor="@color/ghostwhite"
-            android:background="@color/paleturquoise"
-            android:text="取消"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="143dp"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="73dp"/>
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnClose"
+        android:layout_marginTop="-65dp"
+        android:background="@color/paleturquoise"
+        android:text="取消"
+        android:textColor="@color/ghostwhite" />
 
     <Button
-            android:id="@+id/btnClose"
-            android:textColor="@color/ghostwhite"
-            android:background="@color/slategrey"
-            android:text="退出"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="74dp"
-            android:layout_alignTop="@+id/btnCancel"/>
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="391dp"
+        android:background="@color/slategrey"
+        android:text="退出"
+        android:textColor="@color/ghostwhite" />
 </RelativeLayout>
